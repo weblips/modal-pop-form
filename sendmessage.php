@@ -1,6 +1,6 @@
 <?php
 $sendto   = $_POST['email'];
-$usermail = "weeds.ua@gmail.com";
+$usermail = "mymail@gmail.com";
 $subject  = "Новое сообщение";
 $headers  = "From: " . strip_tags($usermail) . "\r\n";
 $headers .= "Reply-To: ". strip_tags($usermail) . "\r\n";
